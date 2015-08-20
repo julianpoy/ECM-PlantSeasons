@@ -31,48 +31,48 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services'])
   // Each state's controller can be found in controllers.js
   $stateProvider
 
-  // setup an abstract state for the tabs directive
-    .state('tab', {
-    url: '/tab',
+  .state('app', {
+    url: "/app",
     abstract: true,
-    templateUrl: 'templates/tabs.html'
+    templateUrl: "templates/menu.html",
+    controller: 'AppCtrl'
   })
 
   // Each tab has its own nav history stack:
 
-  .state('tab.home', {
+  .state('app.home', {
     url: '/home',
     views: {
-      'tab-dash': {
+      'menuContent': {
         templateUrl: 'templates/tab-home.html',
         controller: 'HomeCtrl'
       }
     }
   })
 
-  .state('tab.chats', {
+  .state('app.chats', {
       url: '/chats',
       views: {
-        'tab-chats': {
+        'menuContent': {
           templateUrl: 'templates/tab-chats.html',
           controller: 'ChatsCtrl'
         }
       }
     })
-    .state('tab.chat-detail', {
+    .state('app.chat-detail', {
       url: '/chats/:chatId',
       views: {
-        'tab-chats': {
+        'menuContent': {
           templateUrl: 'templates/chat-detail.html',
           controller: 'ChatDetailCtrl'
         }
       }
     })
 
-  .state('tab.account', {
+  .state('app.account', {
     url: '/account',
     views: {
-      'tab-account': {
+      'menuContent': {
         templateUrl: 'templates/tab-account.html',
         controller: 'AccountCtrl'
       }

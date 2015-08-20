@@ -1,5 +1,11 @@
 angular.module('starter.controllers', [])
 
+.controller('AppCtrl', function($scope) {
+    $scope.menuItems = [
+        { title: "Home", url: "#/app/home" }
+    ];
+})
+
 .controller('HomeCtrl', function($scope) {
 })
 
