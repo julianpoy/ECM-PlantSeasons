@@ -238,4 +238,29 @@ angular.module('starter.services', [])
       return null;
     }
   };
-});
+})
+
+.factory('Months', function() {
+  // Array of plants and information
+  var months = [
+      "January",
+      "February",
+      "March",
+      "April",
+      "May",
+      "June",
+      "July",
+      "August",
+      "September",
+      "October",
+      "November",
+      "December",
+  ]
+
+  //Functionality options
+  return {
+    all: function() {
+      return months;
+    }
+  };
+});;
