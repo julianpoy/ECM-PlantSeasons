@@ -77,6 +77,12 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services'])
         controller: 'AccountCtrl'
       }
     }
+  })
+
+  .state('tools', {
+    url: '/tools',
+    templateUrl: 'templates/tools.html',
+    controller: 'ToolsCtrl'
   });
 
   // if none of the above states are matched, use this as the fallback

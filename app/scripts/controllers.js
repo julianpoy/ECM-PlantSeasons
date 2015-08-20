@@ -1,6 +1,9 @@
 angular.module('starter.controllers', [])
 
 .controller('HomeCtrl', function($scope) {
+})
+
+.controller('ToolsCtrl', function($scope) {
 
     $scope.plants = getCookie('plantData');
 
