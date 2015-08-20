@@ -69,8 +69,13 @@ angular.module('starter.controllers', [])
 
     $scope.returnFormattedText = function(){
         var text = document.getElementById('formatText').value;
+        var textJSON = JSON.parse(text);
+        for(var i = 0; i < textJSON.length; i++){
+            textJSON[i].id = i;
+        }
+        text = JSON.stringify(textJSON);
         text = text.replace(/\r?\n/g, '<br />');
-        $scope.formatted = text;
+        document.getElementById("formatResult").value = text;
     }
 
     $scope.detailsReady = false;
