@@ -67,6 +67,44 @@ angular.module('starter.controllers', [])
         reader.readAsText(file);
     };
 
+    $scope.returnFormattedText = function(){
+        var text = document.getElementById('formatText').value;
+        text = text.replace(/\r?\n/g, '<br />');
+        $scope.formatted = text;
+    }
+
+    $scope.detailsReady = false;
+
+    var plants = [];
+
+    var currPlantIndex;
+
+    $scope.getNextTextAdd = function(){
+
+
+        console.log("Reading job");
+        plants = JSON.parse(document.getElementById('detailsArray').value);
+
+
+        var i = 0;
+        while(plants[i].description != null){
+            i++;
+
+        }
+        currPlantIndex = i;
+        $scope.detailsCurrent = plants[i].name;
+
+
+        console.log(plants);
+
+    }
+
+    $scope.addText = function(){
+        plants[currPlantIndex].description = document.getElementById("detailsText").value;
+        var plantsString = JSON.stringify(plants);
+        document.getElementById("detailsResult").value = plantsString;
+    }
+
     var createCookie = function(name, value, days) {
         var expires;
         if (days) {

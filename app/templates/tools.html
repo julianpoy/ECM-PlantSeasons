@@ -1,8 +1,26 @@
 <ion-view view-title="Dashboard">
   <ion-content class="padding">
-    <input type="file" name="file" id="file"></input>
-    <input type="text" name="month" id="month"></input>
-    <div ng-disabled="true" ng-click="doThang();">Run</div>
-    {{plants}}
+      <div style= "border: 1px solid green; margin-top: 10px; padding: 5px;">
+          Month loader<br />
+        <input type="file" name="file" id="file"></input>
+        <input type="text" name="month" id="month" style="border: 1px solid black;" placeholder="month number"></input>
+        <div ng-disabled="true" ng-click="doThang();" style="border: 1px solid black; margin-top: 5px;">Run</div>
+        {{plants}}
+    </div>
+    <div style= "border: 1px solid green; margin-top: 10px; padding: 5px;">
+        Text formatter<br />
+      <textArea type="textArea" name="formatText" id="formatText" style="border: 1px solid black;" placeholder="text to format"></textArea>
+      <div ng-click="returnFormattedText();" style="border: 1px solid black; margin-top: 5px;">Run</div>
+      {{formatted}}
+  </div>
+  <div style= "border: 1px solid green; margin-top: 10px; padding: 5px;">
+      detailer <br />
+    <textArea type="textArea" name="detailsArray" id="detailsArray" style="border: 1px solid black;" placeholder="original text array"></textArea>
+    <div ng-click="getNextTextAdd();" style="border: 1px solid black; margin-top: 5px;">Run</div>
+    isReady?: {{detailsReady}}, nameOfCurrent: {{detailsCurrent}}
+    <textArea type="textArea" name="detailsText" id="detailsText" style="border: 1px solid black;" placeholder="details after ready"></textArea>
+    <div ng-click="addText();" style="border: 1px solid black; margin-top: 5px;">Run</div>
+    <textArea type="textArea" name="detailsResult" id="detailsResult" style="border: 1px solid black;" placeholder="details after ready"></textArea>
+    </div>
   </ion-content>
 </ion-view>
