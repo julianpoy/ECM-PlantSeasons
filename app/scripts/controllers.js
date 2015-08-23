@@ -1,6 +1,6 @@
 angular.module('starter.controllers', [])
 
-.controller('AppCtrl', function($scope) {
+.controller('AppCtrl', function($scope, $location) {
     $scope.menuItems = [
         { title: "Home", url: "#/app/home" },
         { title: "Month Index", url: "#/app/month" },
@@ -8,6 +8,10 @@ angular.module('starter.controllers', [])
         { title: "About App", url: "#/app/about" },
         { title: "About ECM", url: "#/app/ecm" }
     ];
+
+    $scope.go = function(path) {
+        $location.path(path);
+    };
 })
 
 .controller('HomeCtrl', function($scope) {
