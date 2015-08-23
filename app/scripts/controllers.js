@@ -36,7 +36,8 @@ angular.module('starter.controllers', [])
     $scope.plant = Plants.get($stateParams.id);
 })
 
-.controller('PlantsCtrl', function($scope) {
+.controller('PlantsCtrl', function($scope, Plants) {
+    $scope.plants = Plants.all();
 })
 
 .controller('ChatsCtrl', function($scope, Chats) {

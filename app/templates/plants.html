@@ -1,5 +1,7 @@
 <ion-view view-title="Plants List">
   <ion-content class="padding">
-    LIST OF PLANTS
+      <div ng-repeat="plant in plants">
+            <a href="#/app/plant/{{plant.id}}" class="btn home">{{plant.name}}</a>
+        </div>
   </ion-content>
 </ion-view>
