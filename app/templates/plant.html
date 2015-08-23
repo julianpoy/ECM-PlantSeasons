@@ -1,5 +1,8 @@
 <ion-view view-title="Plant Details">
   <ion-content>
-    DETAILS FOR THIS PLANT
+    <div>
+        <h3>{{plant.name}}</h3><br />
+        <div ng-bind-html="plant.description">d</div>
+    </div>
   </ion-content>
 </ion-view>

@@ -81,7 +81,7 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services'])
   })
 
   .state('app.plant', {
-    url: '/plant/id',
+    url: '/plant/:id',
     views: {
       'menuContent': {
         templateUrl: 'templates/plant.html',

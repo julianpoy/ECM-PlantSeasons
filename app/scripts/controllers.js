@@ -32,7 +32,8 @@ angular.module('starter.controllers', [])
     $scope.months = Months.all();
 })
 
-.controller('PlantCtrl', function($scope) {
+.controller('PlantCtrl', function($scope, $stateParams, Plants) {
+    $scope.plant = Plants.get($stateParams.id);
 })
 
 .controller('PlantsCtrl', function($scope) {
