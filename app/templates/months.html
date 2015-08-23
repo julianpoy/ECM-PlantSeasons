@@ -1,7 +1,7 @@
 <ion-view view-title="Months">
-  <ion-content>
+  <ion-content class="padding">
       <div ng-repeat="month in months track by $index">
-            <a href="#/app/month/{{$index}}" class="btn home">{{month}}</a>
-        </div>
+          <button ng-click="go('app/month/' + {{$index}})" class="button button-block button-ecmGreen">{{month}}</button>
+      </div>
   </ion-content>
 </ion-view>

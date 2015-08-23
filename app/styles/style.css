@@ -1,25 +1,10 @@
 /* Empty. Add your own CSS if you like */
-.btn {
-    -webkit-border-radius: 9;
-    -moz-border-radius: 9;
-    border-radius: 9px;
-    font-family: Arial;
-    color: #ffffff;
-    font-size: 20px;
-    background: #0c9400;
-    padding: 10px 20px 10px 20px;
-    text-decoration: none;
-    text-align: center;
-    display: block;
-    margin: 0 auto;
+.button.button-ecmGreen {
+    color: #fff;
+    background-color: #0c9400;
+    border-color: #0c9400;
 }
 
-.btn.home {
-    width: 200px;
-    margin-bottom: 10px;
-}
-
-.btn:hover {
-    background: #008705;
-    text-decoration: none;
+.button.button-ecmGreen:hover {
+    background-color: #008705;
 }
