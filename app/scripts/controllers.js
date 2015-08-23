@@ -16,7 +16,8 @@ angular.module('starter.controllers', [])
 .controller('MonthCtrl', function($scope) {
 })
 
-.controller('MonthsCtrl', function($scope) {
+.controller('MonthsCtrl', function($scope, Months) {
+    $scope.months = Months.all();
 })
 
 .controller('PlantCtrl', function($scope) {
