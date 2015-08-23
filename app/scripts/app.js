@@ -44,37 +44,48 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services'])
     url: '/home',
     views: {
       'menuContent': {
-        templateUrl: 'templates/tab-home.html',
+        templateUrl: 'templates/home.html',
         controller: 'HomeCtrl'
       }
     }
   })
 
-  .state('app.chats', {
-      url: '/chats',
+  .state('app.months', {
+      url: '/month',
       views: {
         'menuContent': {
-          templateUrl: 'templates/tab-chats.html',
-          controller: 'ChatsCtrl'
-        }
-      }
-    })
-    .state('app.chat-detail', {
-      url: '/chats/:chatId',
-      views: {
-        'menuContent': {
-          templateUrl: 'templates/chat-detail.html',
-          controller: 'ChatDetailCtrl'
+          templateUrl: 'templates/months.html',
+          controller: 'MonthsCtrl'
         }
       }
     })
 
-  .state('app.account', {
-    url: '/account',
+    .state('app.month', {
+        url: '/month/:id',
+        views: {
+          'menuContent': {
+            templateUrl: 'templates/month.html',
+            controller: 'MonthCtrl'
+          }
+        }
+      })
+
+  .state('app.plants', {
+    url: '/plant',
     views: {
       'menuContent': {
-        templateUrl: 'templates/tab-account.html',
-        controller: 'AccountCtrl'
+        templateUrl: 'templates/plants.html',
+        controller: 'PlantsCtrl'
+      }
+    }
+  })
+
+  .state('app.plant', {
+    url: '/plant/id',
+    views: {
+      'menuContent': {
+        templateUrl: 'templates/plant.html',
+        controller: 'PlantCtrl'
       }
     }
   })
@@ -86,6 +97,6 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services'])
   });
 
   // if none of the above states are matched, use this as the fallback
-  $urlRouterProvider.otherwise('/tab/home');
+  $urlRouterProvider.otherwise('/app/home');
 
 });
