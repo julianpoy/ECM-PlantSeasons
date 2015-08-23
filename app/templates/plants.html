@@ -1,6 +1,6 @@
 <ion-view view-title="Plants List">
   <ion-content class="padding">
-      <div ng-repeat="plant in plants">
+      <div ng-repeat="plant in plants|orderBy:'name'">
             <a href="#/app/plant/{{plant.id}}" class="btn home">{{plant.name}}</a>
         </div>
   </ion-content>

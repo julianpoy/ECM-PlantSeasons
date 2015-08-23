@@ -1,6 +1,6 @@
 <ion-view view-title="Plants for this Month">
   <ion-content>
-      <div ng-repeat="plant in primePlants">
+      <div ng-repeat="plant in primePlants|orderBy:'name'">
             <a href="#/app/plant/{{plant.id}}" class="btn home">{{plant.name}}</a>
         </div>
   </ion-content>
