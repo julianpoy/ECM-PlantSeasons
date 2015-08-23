@@ -13,7 +13,19 @@ angular.module('starter.controllers', [])
 .controller('HomeCtrl', function($scope) {
 })
 
-.controller('MonthCtrl', function($scope) {
+.controller('MonthCtrl', function($scope, $stateParams, Plants) {
+    var monthId = $stateParams.id
+    var plants = Plants.all();
+    var primePlants = [];
+    for(var i = 0; i < plants.length; i++){
+        var primeMonths = plants[i].primeMonths;
+        for(var j = 0; j < primeMonths.length; j++){
+            if(primeMonths[j] == (parseInt(monthId) + 1)){
+                primePlants.push(plants[i]);
+            }
+        }
+    }
+    $scope.primePlants = primePlants;
 })
 
 .controller('MonthsCtrl', function($scope, Months) {
