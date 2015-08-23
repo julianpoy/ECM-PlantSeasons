@@ -3,10 +3,10 @@ angular.module('starter.controllers', [])
 .controller('AppCtrl', function($scope) {
     $scope.menuItems = [
         { title: "Home", url: "#/app/home" },
-        { title: "Month Index", url: "#/app/home" },
-        { title: "Plant Index", url: "#/app/home" },
-        { title: "About App", url: "#/app/home" },
-        { title: "About ECM", url: "#/app/home" }
+        { title: "Month Index", url: "#/app/month" },
+        { title: "Plant Index", url: "#/app/plant" },
+        { title: "About App", url: "#/app/about" },
+        { title: "About ECM", url: "#/app/ecm" }
     ];
 })
 
