@@ -1,7 +1,7 @@
 <ion-view view-title="Plants List">
   <ion-content class="padding">
       <div ng-repeat="plant in plants|orderBy:'name'">
-          <button ng-click="go('app/plant/' + {{plant.id}})" class="button button-block button-ecmGreen">{{plant.name}}</button>
+          <button ng-click="go('app/plant/' + {{plant.id}})" class="button button-block button-alternate">{{plant.name}}</button>
       </div>
   </ion-content>
 </ion-view>

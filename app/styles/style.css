@@ -1,10 +1,20 @@
 /* Empty. Add your own CSS if you like */
-.button.button-ecmGreen {
+.button.button-standard {
     color: #fff;
     background-color: #0c9400;
     border-color: #0c9400;
 }
 
-.button.button-ecmGreen:hover {
+.button.button-standard:hover {
+    background-color: #008705;
+}
+
+.button.button-alternate {
+    color: #fff;
+    background-color: #039BE5;
+    border-color: #039BE5;
+}
+
+.button.button-alternate:hover {
     background-color: #008705;
 }
