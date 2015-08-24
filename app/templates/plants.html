@@ -3,5 +3,10 @@
       <div ng-repeat="plant in plants|orderBy:'name'">
           <button ng-click="go('app/plant/' + {{plant.id}})" class="button button-block button-alternate">{{plant.name}}</button>
       </div>
+
+      <div class="textContainer small">
+          This page shows all plants in the app.
+          Select a plant to view details.
+      </div>
   </ion-content>
 </ion-view>

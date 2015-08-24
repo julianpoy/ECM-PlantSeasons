@@ -3,5 +3,9 @@
       <div ng-repeat="month in months track by $index">
           <button ng-click="go('app/month/' + {{$index}})" class="button button-block button-alternate">{{month}}</button>
       </div>
+
+      <div class="textContainer small">
+          Select a month to view best plants.
+      </div>
   </ion-content>
 </ion-view>
