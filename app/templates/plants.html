@@ -1,4 +1,4 @@
-<ion-view view-title="Plants List">
+<ion-view view-title="All Plants">
   <ion-content class="padding">
       <div ng-repeat="plant in plants|orderBy:'name'">
           <button ng-click="go('app/plant/' + {{plant.id}})" class="button button-block button-alternate">{{plant.name}}</button>

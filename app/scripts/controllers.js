@@ -17,8 +17,9 @@ angular.module('starter.controllers', [])
 .controller('HomeCtrl', function($scope) {
 })
 
-.controller('MonthCtrl', function($scope, $stateParams, Plants) {
+.controller('MonthCtrl', function($scope, $stateParams, Months, Plants) {
     var monthId = $stateParams.id
+    $scope.monthName = Months.all()[monthId];
     var plants = Plants.all();
     var primePlants = [];
     for(var i = 0; i < plants.length; i++){
