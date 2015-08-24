@@ -1,8 +1,13 @@
 <ion-view view-title="Planting Details">
   <ion-content>
-    <div>
-        <h3>{{plant.name}}</h3><br />
-        <div ng-bind-html="plant.description">d</div>
+    <div class="list card">
+        <div class="item item-avatar plantAvatar">
+            <h2>{{plant.name}}</h2>
+            <p>and it's family details</p>
+        </div>
+        <div class="item item-body">
+            <div ng-bind-html="plant.description">d</div>
+        </div>
     </div>
   </ion-content>
 </ion-view>
