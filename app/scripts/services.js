@@ -35,7 +35,7 @@ angular.module('starter.services', [])
   }, {
     "name": "Celery",
     "primeMonths": ["1", "9", "10", "11"],
-    "description": "No Description Yet.",
+    "description": "Cool season<br />Best planting times for celery in Southern California:<br />Aug thru Jan<br /><br />Spacing – use the following planting triangle for John Jeavons' Biodynamic spacing: 6<br />Planting depth: cover seeds very lightly<br />Guild for our Vegetable Crop Rotation Wheel: Roots & Greens<br /><br />Plant family: Umbellifer<br />Seed viable for 8 years.",
     "id": 6
   }, {
     "name": "Chard",
@@ -48,15 +48,10 @@ angular.module('starter.services', [])
     "description": "Cool season<br />Best planting times for Southern California: Oct thru Feb<br />Acceptable planting times with special care: March<br /><br />Spacing - use the following planting triangles for John Jeavons' Biodynamic spacing:  collards 12”, kale 15”, mustard 6”<br />Planting depth: 1/4”<br />Guild for our Vegetable Crop Rotation Wheel: Broccoli Guild<br /><br />Plant family: Brassica<br />Seed viable for 4-5 years<br /><br />Companion planting: Interplant broccoli family with cilantro to deter Cabbage White butterfly<br /><br />When broccoli family plants succumb to aphid infestations with the warmer weather of spring, it is time to give up and move to warm season crops.<br /><br />Collards and kale are great cool season performers in our climate. Plus as cruciferous vegetables they are highly nutritious. Use cut-and-come-again harvesting to prolong the season.<br /><br />In an edible landscape, collards and kale are very handsome. Heirloom varieties are quite unique and beautiful.<br /><br />Plants in the brassica family are heavy users of soil nutrients, especially nitrogen. It is important to use good soil-building practices, to plant legumes soon afterward, and to rotate your crops year after year.",
     "id": 8
   }, {
-    "name": "Endive &amp; chicory",
+    "name": "Endive, chicory",
     "primeMonths": ["1", "10", "11", "12"],
-    "description": "No Description Yet.",
+    "description": "Cool season<br />Best planting times for celery in Southern California: Oct thru Jan<br />Acceptable planting times: Feb, Mar<br /><br />Spacing – use the following planting triangle for John Jeavons' Biodynamic spacing: 8”<br />Planting depth: 0.25”<br />Guild for our Vegetable Crop Rotation Wheel: Roots & Greens<br /><br />Plant family: Umbellifer<br />Seed viable for 8 years.",
     "id": 9
-  }, {
-    "name": "Favas",
-    "primeMonths": ["1"],
-    "description": "Cool season<br />Best planting times for Southern California: Oct thru Jan<br /><br />Spacing: use 8\" planting triangle for John Jeavons' Biodynamic spacing<br />Planting depth: 1”<br />Guild for our Vegetable Crop Rotation Wheel: 3 Sisters Guild, Roots+Greens Guild; ok in Broccoli Guild<br /><br />Plant family: Legume<br />Seed viable for 6 years<br />Companion planting: Avoid planting onion family nearby.<br /><br />Favas are wonderful garden helpers because, like all legumes, they help replenish nitrogen in your soil. They are also spectacular “compost crops” which means they provide plenty of material for your compost pile. At our garden, when the fava plants are about 1’ tall we put our tomato cages around them to prevent them from falling over with March winds.<br /><br />Called “ful” in the Middle East and “broad beans” in Europe, favas can be eaten at almost every life stage. You can eat the whole pods of tiny favas. Most people eat the seed part of the fava as a green shelly bean, harvested when the pods are plump and you can feel large beans inside. Middle Eastern cuisine has many recipes for the fully-mature dried bean, cooked similarly to split peas. You can also steam and eat the leafy tips of the growing plants.",
-    "id": 10
   }, {
     "name": "Kale",
     "primeMonths": ["1", "2", "10", "11", "12"],
@@ -93,7 +88,7 @@ angular.module('starter.services', [])
     "description": "Cool season<br />Best planting times for Southern California: Oct thru Feb<br /><br />Spacing: use 4\" planting triangle for John Jeavons' Biodynamic spacing<br />Planting depth: 1/2”<br />Guild for our Vegetable Crop Rotation Wheel: Roots+Greens Guild<br /><br />Plant family: Umbellifer<br />Seed viability deteriorates quickly.  Plant within 1 year.",
     "id": 17
   }, {
-    "name": "Peas &amp; snowpeas",
+    "name": "Peas, snowpeas",
     "primeMonths": ["1", "2", "10", "11", "12"],
     "description": "Cool season<br />Best planting times for Southern California: Oct thru Feb<br />Acceptable planting times with special care: Mar<br /><br />Spacing: use 4\" planting triangle for John Jeavons' Biodynamic spacing<br />Planting depth: 3/4”<br />Guild for our Vegetable Crop Rotation Wheel: 3 Sisters Guild, Roots+Greens Guild; ok in Broccoli Guild<br /><br />Plant family: Legume<br />Seed viable for 3 years<br />Companion planting: avoid planting onion family nearby<br /><br />In catalogs, you will find garden peas, edible podded peas (snowpeas), and soup peas (“split peas”).  When peas get mildew in the spring, it is time to give up and move to summer crops.<br /><br />Peas are wonderful garden helpers because, like all legumes, they help replenish nitrogen in your soil. Most need a trellis for support. Read seed packet to determine height.<br /><br />For edible landscaping, several varieties have purple or lavender flowers, or purple or yellow pods.",
     "id": 18
@@ -153,7 +148,7 @@ angular.module('starter.services', [])
     "description": "Warm season<br />Best planting times for Southern California: tomato Mar thru Apr; pepper Apr thru Jun; eggplant Apr thru May<br />Acceptable planting times with special care: tomato May<br /><br />Spacing - use the following planting triangles for John Jeavons' Biodynamic spacing: tomato and eggplant 18”, Pepper 12”<br />Planting depth: 1/4”<br />Guild for our Vegetable Crop Rotation Wheel: Tomato Guild<br /><br />Plant family: Solanicae<br />Pepper Seed viable for 3 years, Tomato for 4-10 years, Eggplant for 7 years<br />Companion planting: Avoid planting tomato-family plants with beans.<br /><br />In Southern California, some tomatoes and many pepper plants will survive through the winter; they yield much earlier in their second year. For early harvests, you might also try tomato varieties which are were bred for the cool weather of extreme northern climates.<br /><br />Tomatoes, eggplants, and peppers are heavy-users of soil nutrients other than nitrogen. Rotate your crops year after year for best results.",
     "id": 30
   }, {
-    "name": "Cantaloupe",
+    "name": "Melon",
     "primeMonths": ["4", "5", "6"],
     "description": "Warm & Hot seasons<br />Best planting times for Southern California: Apr thru Jun<br /><br />Spacing - use the following planting triangles for John Jeavons' Biodynamic spacing:  melons 15”, watermelon 12”<br />Planting depth:  1/2”<br />Guild for our Vegetable Crop Rotation Wheel: 3 Sisters Guild<br /><br />Plant family: Cucurbit<br />Seed viable for 5-6 years<br /><br />Standard melons like to be warm and moist. For low-effort gardening, simply wait until summer weather has warmed up.  Plant your melons and mulch the resulting sprouts with leaves or shredded newspaper.<br /><br />Watermelons are naturally tolerant of high temperatures and drought.  Water them less often than your zucchinis, cucumbers and standard melons.<br /><br />In an urban edible landscape, melons are a plant to hide at the back because they tend to look sprawly and untidy.",
     "id": 31
@@ -204,7 +199,7 @@ angular.module('starter.services', [])
     "id": 40
   }, {
     "name": "Fava beans",
-    "primeMonths": ["10", "11", "12"],
+    "primeMonths": ["1", "10", "11", "12"],
     "description": "Cool season<br />Best planting times for Southern California: Oct thru Jan<br /><br />Spacing: use 8\" planting triangle for John Jeavons' Biodynamic spacing<br />Planting depth: 1”<br />Guild for our Vegetable Crop Rotation Wheel: 3 Sisters Guild, Roots+Greens Guild; ok in Broccoli Guild<br /><br />Plant family: Legume<br />Seed viable for 6 years<br />Companion planting: Avoid planting onion family nearby.<br /><br />Favas are wonderful garden helpers because, like all legumes, they help replenish nitrogen in your soil. They are also spectacular “compost crops” which means they provide plenty of material for your compost pile. At our garden, when the fava plants are about 1’ tall we put our tomato cages around them to prevent them from falling over with March winds.<br /><br />Called “ful” in the Middle East and “broad beans” in Europe, favas can be eaten at almost every life stage. You can eat the whole pods of tiny favas. Most people eat the seed part of the fava as a green shelly bean, harvested when the pods are plump and you can feel large beans inside. Middle Eastern cuisine has many recipes for the fully-mature dried bean, cooked similarly to split peas. You can also steam and eat the leafy tips of the growing plants.",
     "id": 41
   }, {
@@ -215,7 +210,7 @@ angular.module('starter.services', [])
   }, {
     "name": "California wildflowers",
     "primeMonths": ["11", "12"],
-    "description": "No Description Yet.",
+    "description": "California wildflowers are best seeded in the autumn, so that the plants can grow up through the winter, to bloom in the spring.<br /><br />Our favorite time to plant is with the first rainstorm of the season. Prepare your soil in late September or October. Till it well, and consider covering it with straw or dried leaves. Then when rainstorms are forecast (or even as rain first starts to fall), go out and sow the seeds.<br /><br />This has the advantage of watering-in your seeds with natural rainfall, plus keeping birds away from your precious wildflower seeds!<br /><br />Most California wildflowers are best planted by seed, and sown directly where you want them to grow. Many California wildflowers have a deep taproot which does not transplant very well.<br /><br />Additionally, many California wildflowers form a strong relationship with beneficial mycorrhizal fungus in the soil. You can buy a powder in most local garden centers, which will help establish mycorrhizal populations in your garden.<br /><br />Lastly, allow your California wildflowers to complete their life cycle on your property. Allow them to set seed, and allow the birds to distribute the seed, so that you have an awesome display next year!",
     "id": 43
   }]
 
