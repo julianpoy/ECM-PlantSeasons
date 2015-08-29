@@ -73,6 +73,9 @@ angular.module('starter.controllers', [])
 .controller('AboutCtrl', function($scope) {
 })
 
+.controller('ECMCtrl', function($scope) {
+})
+
 .controller('ToolsCtrl', function($scope) {
 
     $scope.plants = getCookie('plantData');

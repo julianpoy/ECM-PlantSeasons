@@ -100,6 +100,16 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services'])
     }
   })
 
+  .state('app.ecm', {
+    url: '/ecm',
+    views: {
+      'menuContent': {
+        templateUrl: 'templates/ecm.html',
+        controller: 'ECMCtrl'
+      }
+    }
+  })
+
   .state('tools', {
     url: '/tools',
     templateUrl: 'templates/tools.html',
