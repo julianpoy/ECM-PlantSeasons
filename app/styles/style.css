@@ -31,6 +31,19 @@
     font-size: 13px;
 }
 
-.plantAvatar{
+.plantAvatar {
     padding-left: 16px;
+}
+
+.homeImage {
+    max-width: 577px;
+    width: 100%;
+}
+
+.homeImage-container {
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 577px;
+    width: 100%;
 }
