@@ -35,6 +35,15 @@
     padding-left: 16px;
 }
 
+.aboutAvatar {
+    padding-left: 16px;
+}
+
+.aboutAvatar-text {
+    white-space: normal !important;
+    overflow: visible !important;
+}
+
 .homeImage {
     max-width: 577px;
     width: 100%;
