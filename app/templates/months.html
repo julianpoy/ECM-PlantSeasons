@@ -1,11 +1,20 @@
 <ion-view view-title="Choose a Month">
-  <ion-content class="padding">
-      <div ng-repeat="month in months track by $index">
-          <button ng-click="go('app/month/' + {{$index}})" class="button button-block button-alternate">{{month}}</button>
-      </div>
+    <ion-content class="padding">
+        <div class="row">
+            <div class="col">
+                <div ng-repeat="month in months track by $index" ng-if="$index % 2 == 0">
+                    <button ng-click="go('app/month/' + {{$index}})" class="button button-block button-alternate">{{month}}</button>
+                </div>
+            </div>
+            <div class="col">
+                <div ng-repeat="month in months track by $index" ng-if="$index % 2 == 1">
+                    <button ng-click="go('app/month/' + {{$index}})" class="button button-block button-alternate">{{month}}</button>
+                </div>
+            </div>
+        </div>
 
-      <div class="textContainer small">
-          Select a month to view best seeds to sow.
-      </div>
-  </ion-content>
+        <div class="textContainer small">
+            Select a month to view best seeds to sow.
+        </div>
+    </ion-content>
 </ion-view>

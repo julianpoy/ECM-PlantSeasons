@@ -1,7 +1,16 @@
 <ion-view view-title="All Plants">
   <ion-content class="padding">
-      <div ng-repeat="plant in plants|orderBy:'name'">
-          <button ng-click="go('app/plant/' + {{plant.id}})" class="button button-block button-alternate">{{plant.name}}</button>
+      <div class="row">
+          <div class="col">
+              <div ng-repeat="plant in plants|orderBy:'name'" ng-if="$index % 2 == 0">
+                  <button ng-click="go('app/plant/' + {{plant.id}})" class="button button-block button-alternate">{{plant.name}}</button>
+              </div>
+          </div>
+          <div class="col">
+              <div ng-repeat="plant in plants|orderBy:'name'" ng-if="$index % 2 == 1">
+                  <button ng-click="go('app/plant/' + {{plant.id}})" class="button button-block button-alternate">{{plant.name}}</button>
+              </div>
+          </div>
       </div>
 
       <div class="textContainer small">

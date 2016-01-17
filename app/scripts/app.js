@@ -44,8 +44,7 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services'])
     url: '/home',
     views: {
       'menuContent': {
-        templateUrl: 'templates/home.html',
-        controller: 'HomeCtrl'
+        templateUrl: 'templates/home.html'
       }
     }
   })
@@ -94,8 +93,7 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services'])
     url: '/about',
     views: {
       'menuContent': {
-        templateUrl: 'templates/about.html',
-        controller: 'AboutCtrl'
+        templateUrl: 'templates/about.html'
       }
     }
   })
@@ -104,8 +102,16 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services'])
     url: '/ecm',
     views: {
       'menuContent': {
-        templateUrl: 'templates/ecm.html',
-        controller: 'ECMCtrl'
+        templateUrl: 'templates/ecm.html'
+      }
+    }
+  })
+
+  .state('app.info', {
+    url: '/info',
+    views: {
+      'menuContent': {
+        templateUrl: 'templates/info.html'
       }
     }
   })
