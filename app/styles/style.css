@@ -56,3 +56,13 @@
     max-width: 577px;
     width: 100%;
 }
+
+.bar.bar-stable {
+    background-color: #0c9400;
+}
+.plantPage {
+    background-color: lightgrey;
+}
+.item-avatar h2 {
+    color: #0c9400;
+}
