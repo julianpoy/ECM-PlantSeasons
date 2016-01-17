@@ -6,7 +6,8 @@ angular.module('starter.controllers', [])
         { title: "Month Index", url: "#/app/month" },
         { title: "Plant Index", url: "#/app/plant" },
         { title: "About App", url: "#/app/about" },
-        { title: "About ECM", url: "#/app/ecm" }
+        { title: "About ECM", url: "#/app/ecm" },
+        { title: "More Info", url: "#/app/info" }
     ];
 
     $scope.go = function(path) {

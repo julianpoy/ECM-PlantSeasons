@@ -62,7 +62,7 @@
 .bar.bar-stable {
     background-color: #0c9400;
 }
-.plantPage {
+.cardContainer {
     background-color: lightgrey;
 }
 .item-avatar h2 {
@@ -78,4 +78,12 @@
 }
 .bar-header {
     box-shadow: 0px 0px 10px grey;
+}
+.infoList {
+    margin: initial;
+    padding: initial;
+    list-style: initial;
+}
+.infoList li {
+    margin-left: 20px;
 }

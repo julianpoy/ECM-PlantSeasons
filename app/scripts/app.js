@@ -107,6 +107,15 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services'])
     }
   })
 
+  .state('app.info', {
+    url: '/info',
+    views: {
+      'menuContent': {
+        templateUrl: 'templates/info.html'
+      }
+    }
+  })
+
   .state('tools', {
     url: '/tools',
     templateUrl: 'templates/tools.html',
