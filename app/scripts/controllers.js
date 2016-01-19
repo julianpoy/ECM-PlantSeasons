@@ -13,6 +13,10 @@ angular.module('starter.controllers', [])
     $scope.go = function(path) {
         $location.path(path);
     };
+
+    $scope.sysBrowser = function(url){
+        window.open(url,'_system');
+    }
 })
 
 .controller('MonthCtrl', function($scope, $stateParams, Months, Plants) {
