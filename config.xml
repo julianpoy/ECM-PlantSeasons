@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<widget id="com.kondeo.SoCalPlants" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+<widget id="com.kondeo.SoCalPlants" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
   <name>SoCal Plants</name>
   <description>
         An application that gives information on Southern California plants and their prime planting times.
     </description>
-  <author email="julian@kondeo.com" href="http://kondeo.com">
+  <author email="julian@kondeo.com" href="https://kondeo.com">
         Kondeo Development
     </author>
   <content src="index.html"/>
